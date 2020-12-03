@@ -3,8 +3,8 @@ title: Readme Careers
 subtitle: Offer Negotiation Coaching
 email: readmecareers@gmail.com
 description: I will provide you with the tools and coaching to confidently navigate job offers and negotiations for an optimal outcome.
-baseurl: "/forty-jekyll-theme" # the subpath of your site, e.g. /blog
-url: readme.careers
+baseurl: "" # the subpath of your site, e.g. /blog
+url: 
 author:
 street_address:
 city: San Francisco
