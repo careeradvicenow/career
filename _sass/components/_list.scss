@@ -22,7 +22,7 @@
 		padding-left: 1em;
 
 		li {
-			padding-left: 0.5em;
+      padding-left: 0.5em;
 		}
 
 		&.alt {
@@ -39,7 +39,29 @@
 				}
 			}
 		}
+    &.list {
+      display: flex;
+      flex-wrap: wrap;
 
+      li {
+        &.list-item {
+          display: flex;
+          padding: 0.5em;
+          width: 100%;
+        }
+        @media all and (min-width: 40em) {
+          &.list-item {
+          width: 50%;
+          }
+        }
+        @media all and (min-width: 60em) {
+          &.list-item {
+            width: 33.33%;
+          }
+        }
+
+      }
+    }
 		&.icons {
 			cursor: default;
 			list-style: none;

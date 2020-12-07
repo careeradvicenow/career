@@ -73,6 +73,18 @@
 		@include breakpoint(xlarge) {
 			> section {
 				> .image {
+					width: 30%;
+				}
+
+				> .content {
+					width: 70%;
+				}
+			}
+		}
+
+		@include breakpoint(large) {
+			> section {
+				> .image {
 					width: 40%;
 				}
 
@@ -82,37 +94,32 @@
 			}
 		}
 
-		@include breakpoint(large) {
-			> section {
-				> .image {
-					width: 45%;
-				}
-
-				> .content {
-					width: 55%;
-				}
-			}
-		}
-
 		@include breakpoint(medium) {
 			> section {
-				display: block;
+
 
 				> .image {
-					width: 100%;
+					width: 40%;
 				}
 
 				> .content {
-					@include padding(4em, 3em);
-					width: 100%;
+
+					width: 60%;
 				}
 			}
 		}
 
 		@include breakpoint(small) {
 			> section {
+        display: block;
+
+				> .image {
+					width: 100%;
+        }
+
 				> .content {
-					@include padding(3em, 1.5em);
+          @include padding(3em, 1.5em);
+          width: 100%;
 				}
 			}
 		}
